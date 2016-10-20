@@ -10,7 +10,7 @@ import java.util.*;
  * @author karen
  */
 public class PPProblema016 {
-   
+
     /**
     16.	Realizar un programa que contenga una función que reciba como 
     * parámetros tres números y que devuelva y muestre el mayor de ellos.
@@ -19,7 +19,9 @@ public class PPProblema016 {
     public static void main(String[] args) {
         // TODO code application logic here
         int a,b,c,D;
-        D=entradaDatos();    
+        D=entradaDatos();
+ 
+        
     }
     public static int entradaDatos(){
     int a,b,c,D;
@@ -39,8 +41,8 @@ public class PPProblema016 {
                      }
         else if((c>a) && (c>b)){
                System.out.println("El número mayor es:" + c);
+               
                  }
-            
              else{
                        System.out.println("0");
              } 
